@@ -19,7 +19,7 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
   Brigitte van Vliet 
 
   #### Je startniveau:
-  Rood 
+  Blauw 
 
   #### Je focus:
   Surface plane 
@@ -39,12 +39,15 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
   link naar de website die je gaat namaken: https://dopper.com/nl
 
   #### Screenshot(s) van de eerste pagina (small screen): 
-  hier de naam van de pagina  
-  <img src="readme-images/dummy-plaatje.jpg" width="375px" alt="omschrijving van de pagina">
+  Home 
+  <img src="readme-images/home1.jpg" width="375px" alt="De homepagina van dopper.">
+
+  <img src="readme-images/home2.jpg" width="375px" alt="De homepagina van dopper.">
 
   #### Screenshot(s) van de tweede pagina (small screen):
-  hier de naam van de pagina  
-  <img src="readme-images/dummy-plaatje.jpg" width="375px" alt="omschrijving van de pagina">
+  Shop  
+  <img src="readme-images/shop1.jpg" width="375px" alt="De shop van dopper, waar alle producten van dopper kunnen worden bekeken en gekocht.">
+ <img src="readme-images/shop2.jpg" width="375px" alt="De shop van dopper, waar alle producten van dopper kunnen worden bekeken en gekocht.">
  
 </details>
 
