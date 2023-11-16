@@ -41,7 +41,6 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
   #### Screenshot(s) van de eerste pagina (small screen): 
   Home 
   <img src="readme-images/home1.jpg" width="375px" alt="De homepagina van dopper.">
-
   <img src="readme-images/home2.jpg" width="375px" alt="De homepagina van dopper.">
 
   #### Screenshot(s) van de tweede pagina (small screen):
@@ -60,6 +59,22 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
 
   ### Bevindingen
   Lijst met je bevindingen die in de test naar voren kwamen:
+  - Er worden andere gestures gebruikt.
+  - Er wordt snel voorgelezen
+  - Wanneer ik met de tab-knop door de homepagina ga, vertelt de voice-over alleen over de klikbare links & buttons.
+  - Wanneer ik met de tab-knop door de shoppagina ga, vertelt de voice-over alleen over de links & buttons en  de kleurbolletjes bij de producten waar je verschillende kleurkeuzes hebt.
+  - Wanneer ik met de pijltjes door de homepagina ga, vertelt de voice-over niet over alle afbeeldingen, sommige woorden/getallen woorden letter voor letter/cijfer voor cijfer voorgelezen. Ook over de video wordt niks vertelt.
+  -  Wanneer ik met de pijltjes door de shoppagina ga, vertelt de voice over wel over de afbeeldingen, sommige woorden/getallen woorden letter voor letter/cijfer voor cijfer voorgelezen.
+
+
+  #### Foto(s) van de WCAG checklist:
+  Shop  
+  <img src="readme-images/WCAG1.jpg" width="375px" alt="Blz 1 van de ingevulde WCAG checklist.">
+ <img src="readme-images/WCAG2.jpg" width="375px" alt="Blz 2 van de ingevulde WCAG checklist.">
+  <img src="readme-images/WCAG3.jpg" width="375px" alt="Blz 3 van de ingevulde WCAG checklist.">
+   <img src="readme-images/WCAG4.jpg" width="375px" alt="Blz 4 van de ingevulde WCAG checklist.">
+    <img src="readme-images/WCAG5.jpg" width="375px" alt="Blz 5 van de ingevulde WCAG checklist.">
+ 
 
 </details>
 
