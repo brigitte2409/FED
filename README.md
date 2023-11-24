@@ -45,8 +45,8 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
 
   #### Screenshot(s) van de tweede pagina (small screen):
   Shop  
-  <img src="readme-images/Personaliseer_een_dopper-fles.jpgjpg" width="375px" alt="De pesonaliseer een dopper pagina van dopper, waar wordt uitgelegd hoe je een fles kunt personaliseren en welke keuzes er zijn.">
- <img src="readme-images/Personaliseer_een_dopper-fles2.jpgjpg" width="375px" alt="De pesonaliseer een dopper pagina van dopper, waar wordt uitgelegd hoe je een fles kunt personaliseren en welke keuzes er zijn.">
+  <img src="readme-images/Personaliseer_een_dopper-fles.jpg" width="375px" alt="De pesonaliseer een dopper pagina van dopper, waar wordt uitgelegd hoe je een fles kunt personaliseren en welke keuzes er zijn.">
+ <img src="readme-images/Personaliseer_een_dopper-fles2.jpg" width="375px" alt="De pesonaliseer een dopper pagina van dopper, waar wordt uitgelegd hoe je een fles kunt personaliseren en welke keuzes er zijn.">
  
 </details>
 
