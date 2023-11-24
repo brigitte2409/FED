@@ -45,8 +45,8 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
 
   #### Screenshot(s) van de tweede pagina (small screen):
   Shop  
-  <img src="readme-images/shop1.jpg" width="375px" alt="De shop van dopper, waar alle producten van dopper kunnen worden bekeken en gekocht.">
- <img src="readme-images/shop2.jpg" width="375px" alt="De shop van dopper, waar alle producten van dopper kunnen worden bekeken en gekocht.">
+  <img src="readme-images/Personaliseer_een_dopper-fles.jpgjpg" width="375px" alt="De pesonaliseer een dopper pagina van dopper, waar wordt uitgelegd hoe je een fles kunt personaliseren en welke keuzes er zijn.">
+ <img src="readme-images/Personaliseer_een_dopper-fles2.jpgjpg" width="375px" alt="De pesonaliseer een dopper pagina van dopper, waar wordt uitgelegd hoe je een fles kunt personaliseren en welke keuzes er zijn.">
  
 </details>
 
@@ -68,7 +68,6 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
 
 
   #### Foto(s) van de WCAG checklist:
-  Shop  
   <img src="readme-images/WCAG1.jpg" width="375px" alt="Blz 1 van de ingevulde WCAG checklist.">
  <img src="readme-images/WCAG2.jpg" width="375px" alt="Blz 2 van de ingevulde WCAG checklist.">
   <img src="readme-images/WCAG3.jpg" width="375px" alt="Blz 3 van de ingevulde WCAG checklist.">
@@ -86,10 +85,10 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
   <summary>uitwerken na afloop 3<sup>e</sup> werkgroep</summary>
 
   ### de hele pagina: 
-  <img src="readme-images/dummy-plaatje.jpg" width="375px" alt="breakdown van de hele pagina">
+  <img src="readme-images/bds.jpg" width="375px" alt="breakdown van de hele pagina">
 
   ### dynamisch deel (bijv menu): 
-  <img src="readme-images/dummy-plaatje.jpg" width="375px" alt="breakdown van een dynamisch deel">
+  <img src="readme-images/bdsnav.png" width="375px" alt="breakdown van een dynamisch deel">
 
   ### wellicht nog een dynamisch deel (bijv filter): 
   <img src="readme-images/dummy-plaatje.jpg" width="375px" alt="breakdown van nog een dynamisch deel">
@@ -107,7 +106,13 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
 
   ### Stand van zaken
   hier dit ging goed & dit was lastig (neem ook screenshots op van delen van je website en code)
-
+  - De theorie was een beetje weggezakt van internetstandaarden.
+  - Headings bepalen vindt ik lastig.
+  <img src="readme-images/Headings.jpg" width="375px" alt="Een screenshot van een stuk code met headings. ">
+  - Bedenken met wat en hoe ik een bepaalde layout maak, vind ik lastig.
+  - Ik ben niet bekend met overlays. Ik heb meerdere foto's op mijn website waar er bovenop een tekst staat.
+  - Ik weet even niet zo goed hoe ik deze lijst moet doen want er is 1 georderdende lijst en die heeft weer een ongeordende lijst.
+    <img src="readme-images/Li.jpg" width="375px" alt="Een screenshot van een stuk code met een lijst. ">
 
   ### Agenda voor meeting
   samen met je groepje opstellen
