@@ -123,14 +123,12 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
   | en dat ook nog | dit als er tijd is | nog een punt | dit wil ik zeker |
   | ...            | ...                | ...          | ...              |
 
-
+  De vragen zijn 1 op 1 besproken, dus daarom is dit een beetje leeg.
   ### Verslag van meeting
   hier na afloop snel de uitkomsten van de meeting vastleggen
 
-  - punt 1
-  - punt 2
-  - nog een punt
-  - ...
+  - Een 2 heading mag wel gewoon na een 3 heading weer worden gebruikt.
+  - Ul en li door elkaar gehaald. 
 
 </details>
 
@@ -145,7 +143,10 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
 
   ### Stand van zaken
   hier dit ging goed & dit was lastig (neem ook screenshots op van delen van je website en code)
-
+  - CSS over het algemeen vind ik erg lastig. Ik vind moeilijk om ergens te beginnen.
+  - Door gebruik van selectoren pagina 2 dezelfde stijl...?
+  - Hoe geef ik stukjes in tekst een andere kleur?
+  - Hoe los ik een bep stukje code op?
 
   ### Agenda voor meeting
   samen met je groepje opstellen
@@ -155,15 +156,15 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
   | dit bespreken  | en dit             | en ik dit    | en dan ik dat    |
   | en dat ook nog | dit als er tijd is | nog een punt | dit wil ik zeker |
   | ...            | ...                | ...          | ...              |
-
+  De vragen zijn 1 op 1 besproken, dus daarom is dit een beetje leeg.
 
   ### Verslag van meeting
   hier na afloop snel de uitkomsten van de meeting vastleggen
 
-  - punt 1
-  - punt 2
-  - nog een punt
-- ...
+  - 2 navigaties
+  - Divjes gebruiken
+  - Span gebruiken
+
 
 </details>
 
@@ -252,7 +253,7 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
   Nb. ChatGpT en andere AI horen er ook bij.
   Nb. Vermeld de bronnen ook in je code.
 
-  1. bron 1
+  1. bron 1: https://codepen.io/shooft/live/MWZYoqa
   2. bron 2
   3. ...
 
