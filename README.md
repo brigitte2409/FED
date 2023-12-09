@@ -83,7 +83,7 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
 
 <details>
   <summary>uitwerken na afloop 3<sup>e</sup> werkgroep</summary>
-
+  Miro : https://miro.com/app/board/uXjVNNsMhI8=/?share_link_id=299988696544
   ### de hele pagina: 
   <img src="readme-images/bds.jpg" width="375px" alt="breakdown van de hele pagina">
 
@@ -193,6 +193,9 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
 
   ### Stand van zaken
   hier dit ging goed & dit was lastig (neem ook screenshots op van delen van je website en code)
+  - Nadat ik mijn navbar zo werkend had gemaakt dat deze veranderende met scrollen, werkte het hamburger menu niet meer.
+  - Ik heb erg moeite met de selectoren, want soms luistert het niet naar de 2e selector maar naar de 1e, terwijl ik ze heel specifiek maak.
+  
 
 
   ### Agenda voor meeting
@@ -206,6 +209,8 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
 
 
   ### Verslag van meeting
+  Helaas vanwege ziek zijn ben ik niet bij de meeting geweest.
+  
   hier na afloop snel de uitkomsten van de meeting vastleggen
 
   - punt 1
