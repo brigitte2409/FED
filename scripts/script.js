@@ -62,6 +62,22 @@ document.addEventListener('DOMContentLoaded', function() {
         secondNav.classList.remove("toonMenu");
       }
     }
+
+    var emailInput = document.querySelector('input[type="email"]');
+
+    emailInput.addEventListener('focus', function () {
+        if (this.value === 'Cool_bottle21@example.com') {
+            this.value = '';
+        }
+    });
+
+    emailInput.addEventListener('blur', function () {
+        if (this.value === '') {
+            this.value = 'Cool_bottle21@example.com';
+        }
+    });
+
+
   
     // Klik-gebeurtenisluisteraar voor video
     openVideo.onclick = videoOpenen;
