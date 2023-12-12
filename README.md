@@ -195,8 +195,14 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
   hier dit ging goed & dit was lastig (neem ook screenshots op van delen van je website en code)
   - Nadat ik mijn navbar zo werkend had gemaakt dat deze veranderende met scrollen, werkte het hamburger menu niet meer.
   - Ik heb erg moeite met de selectoren, want soms luistert het niet naar de 2e selector maar naar de 1e, terwijl ik ze heel specifiek maak.
-  
-
+  - Toen ik ging beginnen met de 2e pagina kwam ik tot de conclusie dat het toch niet zo handig was, dat ik alleen maar gebruik gemaakt had van selectoren en geen divjes, classes of id's gebruikt had. Hierdoor bleef alles maar luisteren naar die selectoren. Maar op pagina 2 moest er weer hele andere stylings dingen gebeuren.
+  - Het ol li cijfer voor de h3 krijg, terwijl er met de ul li niks gebeurt. Dit was erg lastig. Ik heb chatGPT vragen geprobeert te stellen, chatGPT kwam zelf met code voor ol li::before. <img src="readme-images/chatgptw4.jpg" width="375px" alt="Een screenshot van een antwoord van chatGPT. ">
+   en door de inspectator heb ik wat geprobeerd met transform en ook wat met ol li::marker. Maar dit allemaal werkte niet.
+  <img src="readme-images/probleemw4.jpg" width="375px" alt="Een screenshot van 1 van de problemen hoe de ol li lijst eruit kwam te zien. ">
+  Ik heb nu de ol li list-style op none gezet en bij de h3 de cijfers gewoon erbij gezet en zo kreeg ik wel het gewenste resultaat.
+  <img src="readme-images/oplossingw4.jpg" width="375px" alt="Een screenshot van hoe mijn oplossing van de ol li lijst eruit ziet. ">
+  - Het zigzag patroontje boven bepaalde sections lukt me ook niet. Ik heb eerst iets in illustrator gemaakt, maar hierbij krijg ik gewoon niet de juiste matchende kleur. Vervolgens heb ik geprobeerd met wat codes van het internet op een zigzagpatroon te maken met css, maar ook dit lukte me niet.<img src="readme-images/probleemw42.jpg" width="375px" alt="Een screenshot van hoe mijn zigzagpatroon eruit ziet. ">
+ 
 
   ### Agenda voor meeting
   samen met je groepje opstellen
@@ -210,7 +216,7 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
 
   ### Verslag van meeting
   Helaas vanwege ziek zijn ben ik niet bij de meeting geweest.
-  
+
   hier na afloop snel de uitkomsten van de meeting vastleggen
 
   - punt 1
@@ -230,8 +236,10 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
   <summary>uitwerken voor eindgesprek</summary>
 
   ### Je uitkomst - karakteristiek screenshots:
-  <img src="readme-images/dummy-plaatje.jpg" width="375px" alt="uitomst opdracht 1">
-
+  <img src="readme-images/uitwerkinghome.jpg" width="375px" alt="uitomst opdracht 1">
+  <img src="readme-images/uitwerkinghome2.jpg.jpg" width="375px" alt="uitomst opdracht 1">
+  <img src="readme-images/uitwerkingpersonaliseer.jpg" width="375px" alt="uitomst opdracht 1">
+  <img src="readme-images/uitwerkingpersonaliseer2.jpg" width="375px" alt="uitomst opdracht 1">
 
   ### Dit ging goed/Heb ik geleerd: 
   Korte omschrijving met plaatjes
@@ -241,7 +249,10 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
 
   ### Dit was lastig/Is niet gelukt:
   Korte omschrijving met plaatjes
-
+  - Hamburger menu werkend maken met klikken
+  - De bewegende image
+  - De footer perfect namaken
+  - Surface plane
   <img src="readme-images/dummy-plaatje.jpg" width="375px" alt="bummer">
 </details>
 
@@ -259,7 +270,7 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
   Nb. Vermeld de bronnen ook in je code.
 
   1. bron 1: https://codepen.io/shooft/live/MWZYoqa
-  2. bron 2
+  2. bron 2: https://chat.openai.com
   3. ...
 
 </details>
