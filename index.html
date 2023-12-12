@@ -107,9 +107,14 @@
 		</article>
 		
 	 
-		<img class="videoimage" src="images/home/home6.jpg" alt="">
-		<button aria-label="play">Play</button>
-		<video src="https://dopper.com/nl"> Strijd mee tegen plasticvervuiling. Sluit je aan bij Wave.</video>
+		<div class="video-container">
+			<img class="videoimage" src="images/home/home6.jpg" alt="">
+			<button aria-label="play" id="playButton">Play</button>
+			<video id="videoPlayer" src="https://dopper.com/nl" controls muted>
+				Strijd mee tegen plasticvervuiling. Sluit je aan bij Wave.
+			</video>
+		</div>
+		
 			
 		<section class="zigzag">
 			<h2 class="h245"> De <span>deelnemers</span> aan de <span>Dopper Wave</span> tot nu toe</h2>
@@ -146,21 +151,25 @@
 
 		</section>
 
-		<label for="nieuwsbrief"> Stuur me maandelijks een portie ocean-saving nieuws</label>
-		<input type="email" id="emailInput" name="email" placeholder="Voer je e-mailadres in">
-		<button type="submit">Sign up</button>
-
+		<section class="sectionnieuwsbrief"> 
+			<label for="nieuwsbrief"> Stuur me maandelijks een portie ocean-saving nieuws</label>
+			<input type="email" id="emailField" name="email" placeholder="Dopper_lover93@example.com"  >
+			<button type="submit">Sign up</button>
+		</section>
 	  </main>
 	
 	  <footer>
+        <div> 
+            <button> Klantenservice </button>
+            <button> Over Dopper </button>
+            <button> Zakelijk </button>
+        </div>
 
-		<button> Klantenservice </button>
-		<button> Over Dopper </button>
-		<button> Zakelijk </button>
-		
-		<label for="nieuwsbrief"> Meld je aan voor onze nieuwsbrief. Een versie portie karmapunten én het laatste nieuws.</label>
-		<input type="email">
-		<button>  <img src="images/pijl.svg" alt=""></button>
+        <section>
+            <label for="nieuwsbrief"> Meld je aan voor onze nieuwsbrief. Een versie portie karmapunten én het laatste nieuws.</label>
+            <input type="email" id="emailField" name="email" placeholder="Cool_bottle21@example.com"  >
+            <button>  </button>
+        </section>
 
 		<ul> 
 			<li> <img src="images/dopper/cbc.svg" alt=""> </li>
@@ -176,7 +185,7 @@
 			<li> <img src="images/dopper/social-tiktok.png" alt=""> </li>
 		</ul>
 
-		<ul>
+		<ul class="footermenu">
 			<li><a href=""> Algemene Voorwaarden</a></li>
 			<li> <a href=""> Privacy policy</a> </li>
 			<li> <a href=""> Retour & garantie </a> </li>
@@ -199,14 +208,9 @@
 	
 	  </footer>
 
+
 	<script defer src="scripts/script.js"></script>
 
 </body>
 	
 </html>
-
-
-
-  
-
-
