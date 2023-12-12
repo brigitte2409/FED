@@ -78,11 +78,15 @@ document.addEventListener('DOMContentLoaded', function() {
     });
 
 
-  
-    // Klik-gebeurtenisluisteraar voor video
-    openVideo.onclick = videoOpenen;
-  
-    function videoOpenen() {
-      // Voeg hier de logica toe om de video te openen
-    }
+    document.addEventListener('DOMContentLoaded', function () {
+        var playButton = document.getElementById('playButton');
+        var videoPlayer = document.getElementById('videoPlayer');
+    
+        playButton.addEventListener('click', function () {
+            playButton.style.display = 'none'; 
+            videoPlayer.style.display = 'block';
+            videoPlayer.play(); 
+        });
+    });
+    
   });

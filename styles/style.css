@@ -414,6 +414,21 @@ main section:nth-of-type(4) .h34 {
 
   }
 
+
+  main .section5 article a {
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	margin-bottom: 4em;
+}
+
+main .section5 article a img{
+	margin-left: 1em;
+}
+
+main .section5 article h3 {
+	padding: 1em 1.65em 0em 0;
+}
 /* article */
   main article img {
 	height: 16em;
@@ -513,12 +528,20 @@ main button:first-of-type {
 	
 
 /* Labels */
+
+.sectionnieuwsbrief {
+	display: flex;
+	flex-direction: column;
+	text-align: center;
+	margin-top: 2em;
+}
+
 	label {
 		font-size: 2.5em;
 		font-weight: 900;
 		line-height: 1em;
 		letter-spacing: normal;
-		margin: 0 0 16px 0;
+		margin: 0 0 1em 0;
 	}
 
 	button[type="submit"] {
@@ -531,23 +554,66 @@ main button:first-of-type {
 		font-weight: 500;
 		line-height: 1em;
 		letter-spacing: 0.65px;
-		margin: 0.6em auto;
+		margin: 2em auto;
 		text-decoration: none;
 		text-transform: uppercase;
 	}
 	 
 	input[type="email"] {
+		font-size: 1.2em;
+		font-weight: 600;
 		background-color: transparent;
 		border: none;
 		border-bottom: 1.5px solid #ccc; 
-		padding: 0.5em;
+		padding-bottom: 1em;
 		outline: none;
+		width: 16em;
 	}
 	
 	input[type="email"]::placeholder {
 		color: #aaa;
+		margin-bottom: 1em;
 	}
 
+
+	.video-container {
+		position: relative;
+		text-align: center;
+	}
+	
+	#playButton {
+		position: absolute;
+		top: 50%;
+		left: 50%;
+		transform: translate(-50%, -50%);
+		z-index: 1;
+		background-color: white;
+		height: 6em;
+		width:6em;
+		margin:0;
+		padding:0;
+		appearance:none;
+		background-image:
+	conic-gradient(
+		  at right center, 
+		  transparent 240.5deg, 
+		  #1A3065 240.5deg 299.5deg, 
+		  transparent 299.5deg
+		);
+	  background-position:58% center;
+	  background-size:42% 48%;
+	  background-repeat:no-repeat;
+	  border-radius:50%;
+	  border:none;
+	  outline:none;
+	  color:transparent;
+	  user-select:none;
+	}
+
+	#videoPlayer {
+		display: none; 
+	}
+	
 
 	.buttonimage {
 		position: relative;
@@ -757,7 +823,7 @@ main button:first-of-type {
 	text-transform: uppercase;
 	}
 	
-	
+
 
 
 
@@ -777,7 +843,7 @@ main button:first-of-type {
 
 	footer section [type="email"] {
 		font-size: 1.2em;
-		width: 23em ;
+		width: 18em ;
 		padding-bottom: 2em;
 		margin: 2em 0 2.5em 0;
 	}
