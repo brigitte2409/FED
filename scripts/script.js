@@ -2,7 +2,6 @@
 
 document.addEventListener('DOMContentLoaded', function() {
     // De variabelen
-    var openVideo = document.querySelector("img[src='images/home/home6.jpg']");
     var openButton = document.querySelector("header nav:nth-child(1) button");
     var sluitButton = document.querySelector("header nav:nth-child(2) button");
     var secondNav = document.querySelector("header nav:nth-child(2)");
@@ -19,44 +18,33 @@ document.addEventListener('DOMContentLoaded', function() {
             logo.src = 'images/logo.svg';
             openButton.style.backgroundColor = '#1A3065';
             openButton.querySelector('img').src = 'images/menu-burger.svg';
-            // Wijzig de achtergrondkleur van de eerste navigatiebalk naar wit
             firstNav.style.backgroundColor = 'white';
         } else {
             // Terug naar de oorspronkelijke instellingen wanneer niet gescrold
             logo.src = 'images/logo1.svg';
             openButton.style.backgroundColor = 'white';
             openButton.querySelector('img').src = 'images/menu-burger1.svg';
-            // Zet de achtergrondkleur van de eerste navigatiebalk terug naar transparent of de oorspronkelijke kleur
-            firstNav.style.backgroundColor = 'transparent'; // Je kunt hier ook de oorspronkelijke kleur gebruiken
+            firstNav.style.backgroundColor = 'transparent'; 
         }
     }
 
     // Voeg een scrollgebeurtenisluisteraar toe
     window.addEventListener('scroll', handleScroll);
-  
+
     // Klik-gebeurtenisluisteraars toevoegen
 
-    openButton.addEventListener('click', openMenu);
-    sluitButton.addEventListener('click', sluitMenu);
+    openButton.addEventListener('click', toggleMenu);
+    sluitButton.addEventListener('click', toggleMenu);
     
-  
-    
-
     // Functie om het menu te openen
-    function openMenu() {
-        secondNav.classList.add("toonMenu");
-        console.log('toonMenu klasse toegevoegd');
+    function toggleMenu() {
+        let mobileMenu = document.querySelector('header nav:nth-of-type(2) ul')
+        mobileMenu.classList.toggle('open')
     }
-    
-  
-    // Functie om het menu te sluiten
-    function sluitMenu() {
-    secondNav.classList.remove("toonMenu");
-    }
-  
+
     // Klik-gebeurtenisluisteraar toevoegen om het menu te sluiten bij Escape-toets
     window.onkeydown = handleKeydown;
-  
+
     function handleKeydown(event) {
       if (event.key == "Escape") {
         secondNav.classList.remove("toonMenu");
@@ -77,16 +65,19 @@ document.addEventListener('DOMContentLoaded', function() {
         }
     });
 
-
     document.addEventListener('DOMContentLoaded', function () {
-        var playButton = document.getElementById('playButton');
-        var videoPlayer = document.getElementById('videoPlayer');
-    
+        var playButton = document.querySelector('.playButton');
+        var videoPlayer = document.querySelector('.videoPlayer');
+        var videoImage = document.querySelector('.videoimage');
+
         playButton.addEventListener('click', function () {
-            playButton.style.display = 'none'; 
+            playButton.style.display = 'none';
             videoPlayer.style.display = 'block';
-            videoPlayer.play(); 
+            videoImage.style.display = 'none';
+            videoPlayer.src = "https://www.youtube.com/embed/l3hF8HWLJEs?si=L4tfr92JEfr1VrGw";
+        
         });
     });
+    
     
   });
