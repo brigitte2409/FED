@@ -39,7 +39,7 @@
 	--font-weight: 500;
 	--font-weightb: 900;
  }
- 
+
 
  @media (prefers-color-scheme:dark) { :root {
   --color-textb: #ffae00;
@@ -51,7 +51,21 @@
   --color-backgroundp: #3e0f49; 
   --button-bgg: #152956; 
   --button-bgw: #0a142c;
-	} }
+	} } 
+
+
+:root[data-color-mode="dark-mode"] {
+		--color-textb: #ffae00;
+		--color-textw: white; 
+		--color-textp: #8c436f; 
+		--color-textg: #ffae00; 
+		--color-backgroundb: black; 
+		--color-backgrounddb: #14254e; 
+		--color-backgroundp: #3e0f49; 
+		--button-bgg: #152956; 
+		--button-bgw: #0a142c;
+		  } 
+
 
  /**************/
 /* BODY */
@@ -137,7 +151,7 @@ header section {
 	text-align: center;
   }
   
-header h1, header p {
+header h1, header section p {
 	margin: var(--margin);
 	width: 23.437em;
 	max-width: 95%; 
@@ -152,7 +166,7 @@ header h1 {
 	margin: var(--margin);
   }
   
-header p {
+header section p {
 	position: absolute;
 	left: 50%;
 	top: 55%;
@@ -260,7 +274,28 @@ header nav:nth-child(2) div {
 	display: flex;
 	flex-direction: row;
 	justify-content: space-between;
+	align-items: center;
+	padding-bottom: 0.5em;
+	border-bottom: 0.0625em solid #bccbce ;
+	width: 100%;
 }
+
+header nav:nth-child(2) div .dark-mode-toggle {
+	display: flex;
+	flex-direction: row;
+	justify-content: flex-start;
+	justify-content: center;
+	border-bottom: none;
+	padding: var(--padding);
+}
+
+header nav:nth-child(2) label {
+	font-size: var(--font-size);
+	font-weight: var();
+	margin: 0 0.5em 0 0.5em;
+}
+
+
 
 header nav:nth-child(2) button img {
 	width: 1.75em;
@@ -269,9 +304,7 @@ header nav:nth-child(2) button img {
 
 header nav:nth-child(2) ul {
 	background-color: var(--button-bgw);
-	display: grid;
-	align-content: start;
-	gap: 1em;
+	color: var(--color-textb);
 	position: fixed;
 	left: 0;
 	right: 0;
@@ -281,6 +314,18 @@ header nav:nth-child(2) ul {
     transition: 1s ease-in-out;
 	z-index: 102;
 	list-style: none;
+	display: flex;
+	flex-direction: column;
+	align-items: flex-start;
+}
+
+header nav:nth-child(2) button:first-child {
+	display: flex;
+	flex-direction: row;
+}
+
+header nav:nth-child(2) button img {
+	margin-left: 0.3em;
 }
 
 header nav:nth-child(2) button {
@@ -296,15 +341,15 @@ header nav:nth-child(2) button {
 
 header nav:nth-child(2) ul.open {
 	transform: translateX(0%);
-	justify-items: end;
-	padding: 0 10% 0 10%;
+	padding: 0 5% 0 5%;
+	display: flex;
 }
 
-header nav:nth-of-type(2) ul li  {
-	margin: 0.5em;
+header nav:nth-child(2) ul.open li  {
+	margin: 1em;
 }
 
-header nav:nth-of-type(2) ul li a {
+header nav:nth-child(2) ul.open li a {
 	flex-direction: column;
 	font-size: var(--font-sizeg);
 	border: none;
@@ -314,11 +359,30 @@ header nav:nth-of-type(2) ul li a {
 	justify-items: left;
 }
 
+
+header nav:nth-child(2) ul.open p {
+	font-size: var(--font-size);
+	font-weight: var(--font-weight);
+	text-align: start;
+	padding: 0.25em 0.25em 0em 1em;
+}
+
+header nav:nth-child(2) ul.open p:first-of-type {
+	font-size: var(--font-sizeg);
+	font-weight: var(--font-weightb);
+	max-width: 70%;
+	padding: 0.5em 0.25em 0em 0.5em;
+}
+
+
+
+
 @media (max-width: 15em) {
 	header nav a {
 	  text-align: center;
 	}
-  }
+}
+
   
 
  
@@ -458,7 +522,7 @@ main section:nth-of-type(4) .h34 {
   main .section5 a {
 		background-color: transparent; 
 		border: none; 
-		color: var(--color-backgrounddb);
+		color: var(--color-textb);
 		padding: var(--padding);
 		font-size: 1em;
 		font-weight: var(--font-weight);
@@ -689,7 +753,7 @@ display: block;
 
 	.videoPlayer {
 		display: none; 
-		width: 14em;
+		width: 23.4375em;
 	}
 	
 
