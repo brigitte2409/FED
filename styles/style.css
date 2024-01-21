@@ -703,6 +703,13 @@ padding: 0 1em 0 1em;
 	}
 
 
+.emailField:focus {
+    border-color:  #ff39b0;; 
+}
+
+
+
+
 	
 	
 
@@ -966,6 +973,20 @@ display: block;
 	text-transform: uppercase;
 	}
 	
+
+	a.pijl:hover img {
+		transform: translateX(1em); 
+	  }
+	  
+	  .animate img {
+		animation: moveRight 0.5s ease; 
+	  }
+	  
+	  @keyframes moveRight {
+		to {
+		  transform: translateX(50px); 
+		}
+	  }
 
 /**************/
 /* FOOTER */

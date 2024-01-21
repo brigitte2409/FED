@@ -9,7 +9,9 @@ document.addEventListener('DOMContentLoaded', function() {
     var scrollThreshold = 100;
     var emailInput = document.querySelector('input[type="email"]');
     var vergrootImages = document.querySelectorAll('.zoom-image');
-
+    var darkModeToggle = document.querySelector('.darkModeToggle');
+   
+    
     function handleScroll() {
         var isDarkMode = darkModeToggle.checked;
 
@@ -26,6 +28,7 @@ document.addEventListener('DOMContentLoaded', function() {
         }
     }
 
+
     window.addEventListener('scroll', handleScroll);
 
 
@@ -38,7 +41,6 @@ document.addEventListener('DOMContentLoaded', function() {
         mobileMenu.classList.toggle('open')
     }
 
-    console.log(document.querySelector("header nav:nth-child(2) button"));
 
 
     
@@ -60,23 +62,22 @@ document.addEventListener('DOMContentLoaded', function() {
         var videoPlayer = document.querySelector('.videoPlayer');
         var videoImage = document.querySelector('.videoimage');
 
+        if (playButton) {
         playButton.addEventListener('click', function () {
             playButton.style.display = 'none';
             videoPlayer.style.display = 'block';
             videoImage.style.display = 'none';
             videoPlayer.src = "https://www.youtube.com/embed/l3hF8HWLJEs?si=L4tfr92JEfr1VrGw&autoplay=1";
-        
-        });
-  
+            });
+        }
 
-    
-    var darkModeToggle = document.querySelector('.darkModeToggle');
 
     darkModeToggle.addEventListener('change', function() {
         const root = document.documentElement;
     
         if (darkModeToggle.checked) {
             root.setAttribute('data-color-mode', 'dark-mode');
+
         } else {
             root.removeAttribute('data-color-mode');
         }
@@ -92,6 +93,7 @@ document.addEventListener('DOMContentLoaded', function() {
     vergrootImages.forEach(function(image) {
         image.addEventListener('mouseenter', function() {
             zoomIn(image);
+            console.log('Mouse enter');
         });
     
         image.addEventListener('mouseleave', function() {
@@ -109,37 +111,76 @@ document.addEventListener('DOMContentLoaded', function() {
         image.style.transform = 'scale(1)'; 
     }
     
+    const opTellen = document.querySelector('.optellen');
+
+    if (opTellen) {
+    const eindWaarde = 40;
+    const duur = 2000;  
+    const stappen = 40; 
+
+    const stapGrootte = eindWaarde / stappen;
+    var huidigeWaarde = 0;
+
+    const updateTeller = function () {
+        huidigeWaarde += stapGrootte;
+        const afgerondeWaarde = huidigeWaarde.toFixed(0);
+        opTellen.textContent = afgerondeWaarde;
+    };
+
+    const intervalId = setInterval(function () {
+        updateTeller();
+
+        if (huidigeWaarde >= eindWaarde) {
+            clearInterval(intervalId);
+        }
+    }, duur / stappen);
+
+    }
+
+
+    const emailField = document.getElementById("email");
+    const submitButton = document.querySelector(".submitButton");
+
+    
+emailField.addEventListener("focus", function() {
+    this.classList.add("focused");
+});
+
+emailField.addEventListener("blur", function() {
+    this.classList.remove("focused");
+});
 
 
 
-    
-    
-   
-  
-        const opTellen = document.querySelector('.optellen');
-        const eindWaarde = 40;
-        const duur = 2000;  
-        const stappen = 40; 
-    
-        const stapGrootte = eindWaarde / stappen;
-        var huidigeWaarde = 0;
-    
-        const updateTeller = function () {
-            huidigeWaarde += stapGrootte;
-            const afgerondeWaarde = huidigeWaarde.toFixed(0);
-            opTellen.textContent = afgerondeWaarde;
-        };
-    
-        const intervalId = setInterval(function () {
-            updateTeller();
-    
-            if (huidigeWaarde >= eindWaarde) {
-                clearInterval(intervalId);
-            }
-        }, duur / stappen);
-    
-    
 
+submitButton.addEventListener("click", function(event) {
+    event.preventDefault(); 
+
+    const emailValue = emailField.value.trim();
+
+    if (emailValue === "" || !isValidEmail(emailValue)) {
+        alert("Vul een geldig e-mailadres in!");
+        return;
+    }
+
+    const sectionNieuwsbrief = document.querySelector(".sectionnieuwsbrief");
+    sectionNieuwsbrief.classList.add("submitted");
+
+    setTimeout(function() {
+        const successMessage = document.createElement("p");
+        successMessage.textContent = "Bedankt voor je inschrijving! Je ontvangt binnenkort ocean-saving nieuws.";
+        sectionNieuwsbrief.appendChild(successMessage);
+
+        sectionNieuwsbrief.removeChild(emailField);
+        sectionNieuwsbrief.removeChild(submitButton);
+    }, 500);
+
+});
+
+function isValidEmail(email) {
+
+    return /\S+@\S+\.\S+/.test(email);
+}
 
 });
     
