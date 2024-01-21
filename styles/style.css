@@ -290,7 +290,7 @@ header nav:nth-child(2) div .dark-mode-toggle {
 
 header nav:nth-child(2) label {
 	font-size: var(--font-size);
-	font-weight: var();
+	font-weight: var(--font-weightb);
 	margin: 0 1em 0 0.5em;
 }
 
@@ -395,6 +395,10 @@ main section{
 	display: flex;
 	flex-direction: column;
 	align-items: flex-start;
+	padding: 0 1.5em 0 1.5em;
+} 
+
+main .personaliseerdiv{
 	padding: 0 1.5em 0 1.5em;
 } 
 
@@ -656,11 +660,11 @@ padding: 0 1em 0 1em;
 /* LABELS EN INPUT */
 /**************/
 
-.sectionnieuwsbrief {
+.divnieuwsbrief {
 	display: flex;
 	flex-direction: column;
 	text-align: center;
-	margin-top: 2em;
+	margin: 2em 0 0 0;
 }
 
 	label {
@@ -668,7 +672,7 @@ padding: 0 1em 0 1em;
 		font-weight: var(--font-weightb);
 		line-height: 1em;
 		letter-spacing: normal;
-		margin: 0 0 1em 0;
+		margin: 0 1em 1em 1em;
 	}
 
 	button[type="submit"] {
@@ -692,12 +696,13 @@ padding: 0 1em 0 1em;
 		background-color: transparent;
 		border: none;
 		border-bottom: 0.09375em solid #ccc; 
-		padding-bottom: 1em;
+		padding: 0 0 1em 0;
 		outline: none;
 		width: 16em;
+		margin: 0 0 0 1.5em;
 	}
 	
-	input[type="email"]::placeholder {
+	::placeholder {
 		color: #aaa;
 		margin-bottom: 1em;
 	}
@@ -795,7 +800,7 @@ display: block;
 	position:absolute;
 	left:50%;
 	top:50%;
-	translate:-50% -50%;
+	transform: translate(-50%, -50%);
 	text-align: center;
 	}
 
@@ -803,6 +808,11 @@ display: block;
 		background-color: var(--color-backgrounddb);
 		color: var(--color-textw);
 	} 
+
+	main .flessen img {
+		width: 20.5em; 
+		height: 21.3625em;
+	  }
 
 
 	.flessen h2{
@@ -869,7 +879,7 @@ display: block;
 	position:absolute;
 	left:50%;
 	top:50%;
-	translate:-50% -50%;
+	transform: translate(-50%, -50%);
 	text-align: center;
 	}
 
@@ -998,16 +1008,16 @@ display: block;
 	}
 	
 
-	footer section label {
+	footer div label {
 		font-size:var(--font-size);
 		font-weight: var(--font-weight);
+		margin: 2em 1em 0 1em;
 	}
 
-	footer section [type="email"] {
+	footer div [type="email"] {
 		font-size: 1.2em;
 		width: 18em ;
-		padding-bottom: 2em;
-		margin: 2em 0 2.5em 0;
+		margin: 2em 0 3em 0.5em;
 	}
 
 	footer ul {
