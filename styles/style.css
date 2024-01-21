@@ -274,7 +274,7 @@ header nav:nth-child(2) div {
 	flex-direction: row;
 	justify-content: space-between;
 	align-items: center;
-	padding-bottom: 0.5em;
+	padding: 1em 0 0.5em 0;
 	border-bottom: 0.0625em solid #bccbce ;
 	width: 100%;
 }
@@ -329,11 +329,13 @@ header nav:nth-child(2) button img {
 
 header nav:nth-child(2) button {
 	aspect-ratio: 1/1;
+	color: var(--color-textb);
 	width: 2em;
 	height: 2em;
 	padding: 0.5em 0.3em;
 	appearance: none;
 	border: none;
+	font-size: var(--font-size);
 	border-radius: 50%;
 	background: none;
 }

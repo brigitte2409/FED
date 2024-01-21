@@ -111,32 +111,33 @@ document.addEventListener('DOMContentLoaded', function() {
         image.style.transform = 'scale(1)'; 
     }
     
-    const opTellen = document.querySelector('.optellen');
+    const optelElementen = document.querySelectorAll('.optellen');
 
-    if (opTellen) {
-    const eindWaarde = 40;
-    const duur = 2000;  
-    const stappen = 40; 
-
-    const stapGrootte = eindWaarde / stappen;
-    var huidigeWaarde = 0;
-
-    const updateTeller = function () {
-        huidigeWaarde += stapGrootte;
-        const afgerondeWaarde = huidigeWaarde.toFixed(0);
-        opTellen.textContent = afgerondeWaarde;
-    };
-
-    const intervalId = setInterval(function () {
-        updateTeller();
-
-        if (huidigeWaarde >= eindWaarde) {
-            clearInterval(intervalId);
-        }
-    }, duur / stappen);
-
+    if (optelElementen) {
+        optelElementen.forEach(optelElement => {
+            const eindWaarde = parseInt(optelElement.textContent);
+            const duur = 2000;
+            const stappen = 40;
+    
+            const stapGrootte = eindWaarde / stappen;
+            var huidigeWaarde = 0;
+    
+            const updateTeller = function () {
+                huidigeWaarde += stapGrootte;
+                const afgerondeWaarde = huidigeWaarde.toFixed(0);
+                optelElement.textContent = afgerondeWaarde;
+            };
+    
+            const intervalId = setInterval(function () {
+                updateTeller();
+    
+                if (huidigeWaarde >= eindWaarde) {
+                    clearInterval(intervalId);
+                }
+            }, duur / stappen);
+        });
     }
-
+    
 
     const emailField = document.getElementById("email");
     const submitButton = document.querySelector(".submitButton");
