@@ -263,15 +263,17 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
   - Hoe je een darkmode maakt.
   - Hoe je optel animatie maakt.
 
-  <img src="readme-images/dummy-plaatje.jpg" width="375px" alt="top">
+  <img src="readme-images/labelfocus.jpg" width="375px" alt="Label focus">
+   <img src="readme-images/Darkmode.jpg" width="375px" alt="Darkmode">
 
 
   ### Dit was lastig/Is niet gelukt:
   Korte omschrijving met plaatjes
-  - De bewegende image
-  - Het menu perfect namaken
-  - Het zigzagpatroontje
-  <img src="readme-images/dummy-plaatje.jpg" width="375px" alt="bummer">
+  - Het menu perfect namaken, het uitklapmenu.
+  - Het zigzagpatroontje, zelf een image gemaakt, maar vond ik niet mooi en met code lukte het me niet, dus daarom weggelaten.
+  
+  <img src="readme-images/zigzag.jpg" width="375px" alt="Het zigzagpatroontje">
+    <img src="readme-images/menu.jpg" width="375px" alt="Het menu / uitklapmenu">
 </details>
 
 
@@ -288,7 +290,15 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
   Nb. Vermeld de bronnen ook in je code.
 
   1. bron 1: https://codepen.io/shooft/live/MWZYoqa
+     - Voor het menu
+     -  Darkmode
+     - Positioneren
   2. bron 2: https://chat.openai.com
-  
+     - 40 flessen laten optellen 
+     - Default maken voor email invoer
+     - De mogelijkheden voor images animeren en stylen
+  3. bron 3: Lynn, de student-assistent.
+     - Het menu
+
 
 </details>
