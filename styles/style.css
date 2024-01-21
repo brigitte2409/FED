@@ -42,23 +42,23 @@
 
 
  @media (prefers-color-scheme:dark) { :root {
-  --color-textb: #ffae00;
-  --color-textw: white; 
-  --color-textp: #8c436f; 
-  --color-textg: #ffae00; 
-  --color-backgroundb: #0a142c; 
-  --color-backgrounddb: #14254e; 
-  --color-backgroundp: #3e0f49; 
-  --button-bgg: #152956; 
-  --button-bgw: #0a142c;
+	--color-textb: #FFEA80;
+	--color-textw: white; 
+	--color-textp: #ce9bba; 
+	--color-textg: #FFEA80; 
+	--color-backgroundb: black; 
+	--color-backgrounddb: #14254e; 
+	--color-backgroundp: #3e0f49; 
+	--button-bgg: #152956; 
+	--button-bgw: #0a142c;
 	} } 
 
 
 :root[data-color-mode="dark-mode"] {
-		--color-textb: #ffae00;
+		--color-textb: #FFEA80;
 		--color-textw: white; 
-		--color-textp: #8c436f; 
-		--color-textg: #ffae00; 
+		--color-textp: #ce9bba; 
+		--color-textg: #FFEA80; 
 		--color-backgroundb: black; 
 		--color-backgrounddb: #14254e; 
 		--color-backgroundp: #3e0f49; 
@@ -91,13 +91,12 @@ h2 {
 	font-weight: var(--font-weightb);
 	line-height: 1.2em;
 	letter-spacing:-0.01em;
-	margin: 0 0 0.75em 0;
+	margin: 0.5em 0 0.5em 0;
   }
 
 .h245 {
 	font-size: 2.8125em;
 	line-height: 1em;
-	padding-top: 0.5em;
   }
 
 
@@ -127,7 +126,7 @@ p span {
 	line-height: 1em;
 	letter-spacing:  0.040625em ;
 	padding: var(--padding);
-	margin-bottom: 0.5em;
+	margin: 0.5em 0 0.5em 0;
 }
 
 
@@ -292,7 +291,7 @@ header nav:nth-child(2) div .dark-mode-toggle {
 header nav:nth-child(2) label {
 	font-size: var(--font-size);
 	font-weight: var();
-	margin: 0 0.5em 0 0.5em;
+	margin: 0 1em 0 0.5em;
 }
 
 
@@ -498,7 +497,7 @@ main section:nth-child(2){
 }		
 
 main section:nth-of-type(3) a {
- margin-bottom: 0.2em;
+ margin-bottom: 2em;
 }
 
 /**************/
@@ -579,7 +578,7 @@ main .section5 article h3 {
   }
 
   main article a {
-	margin:  0 1.70em 0em 2.5em;
+	margin:  0 1.70em 4em 2.5em;
   }
 
 
@@ -598,10 +597,7 @@ main .section5 article h3 {
 	align-items: center;
   }
 
-  .zigzag .h245{
-	color: var(--color-textw);
-	padding-top: 1em;
-  }
+  
 
   .zigzag p {
 	color: var(--color-textw);
@@ -617,7 +613,7 @@ main .section5 article h3 {
 	font-weight: var(--font-weight);
 	line-height: 1em;
 	letter-spacing: 0.040625em;
-	margin-bottom: 1.5em;
+	margin-bottom: 2.5em;
 	text-decoration: none;
 	text-transform: uppercase;
   }
@@ -627,7 +623,7 @@ main .section5 article h3 {
 }
 
 .zigzag > div a {
-	margin-top: 0.50em;
+	margin-top: 0.5em;
 }
 .zigzag p {
 	text-align: center;
@@ -752,6 +748,7 @@ display: block;
 	}
 
 	.videoPlayer {
+		margin-top: 3em;
 		display: none; 
 		width: 23.4375em;
 	}
@@ -818,7 +815,7 @@ display: block;
 	  }
 
 	  .flessen section p {
-		padding: 0;
+		padding: 0.75em 0 0 0;
 		font-size: 0.75em;
 		margin-bottom: 0.75em;
 	  }
@@ -964,7 +961,7 @@ display: block;
 	font-weight: var(--font-weight);
 	line-height: 1em;
 	letter-spacing: 0.040625em;
-	margin-bottom: 1.5em;
+	margin: 1em 0 6em 0;
 	text-decoration: none;
 	text-transform: uppercase;
 	}
@@ -1006,7 +1003,7 @@ display: block;
 	  
 	  footer ul:nth-of-type(4) {
 		margin: 3.25em 0;
-		gap: 2em;
+		gap: 1em;
 		flex-wrap: wrap;
 		width: 12.4em;
 		height: 6.12em;
@@ -1025,7 +1022,7 @@ display: block;
 	  }
 
 	  footer a {
-		color: #bccbce;
+		color: #4a5153;
 		padding: 0;
 		text-decoration: none;
 		text-transform: uppercase;
@@ -1039,14 +1036,14 @@ display: block;
 
 	 footer div button {
 		width:  19.375em;
-		color: #bccbce;
+		color: #4a5153;
 		font-size: 1.25em;
 		padding: 0.5em 0 0.5em 0;
 		background: none;
 		border-left: 0;
 		border-right: 0;
 		border-bottom: 0;
-		border-top: 0.0625em solid #bccbce;
+		border-top: 0.0625em solid #4a5153;
 		outline: none;
 		text-decoration: none;
 	 }
