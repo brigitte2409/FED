@@ -176,9 +176,21 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
 
 <details>
   <summary>uitwerken na test in 9<sup>e</sup> werkgroep</summary>
-
+<img src="readme-images/WCAG1.2.jpg" width="375px" alt="Blz 1 van de ingevulde WCAG checklist.">
+ <img src="readme-images/WCAG2.2.jpg" width="375px" alt="Blz 2 van de ingevulde WCAG checklist.">
+  <img src="readme-images/WCAG3.2.jpg" width="375px" alt="Blz 3 van de ingevulde WCAG checklist.">
+   <img src="readme-images/WCAG4.2.jpg" width="375px" alt="Blz 4 van de ingevulde WCAG checklist.">
+    <img src="readme-images/WCAG5.2.jpg" width="375px" alt="Blz 5 van de ingevulde WCAG checklist.">
+ 
   ### Bevindingen
   Lijst met je bevindingen die in de test naar voren kwamen (geef ook aan wat er verbeterd is):
+  -  ALT tekst toegevoegd aan fotos's
+  - Gezorgd voor maar 1 H1 en goede, geen lege of overgeslagen headings
+  - List gebruikt, daar waar nodig
+  - Darkmode toegevoegd
+  - Meer contrast toegevoegd aan foto's
+  - Meer witruimtes toegevoegd
+  - Focus states kan nog veel meer mee gedaan worden
 
 </details>
 
@@ -243,16 +255,22 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
 
   ### Dit ging goed/Heb ik geleerd: 
   Korte omschrijving met plaatjes
+  - Ik heb vooral geleerd dat er eigenlijk zoveel meer mogelijk is met CSS dan waarvan ik afwist. 
+  - Weer nieuwe mogelijke dingen met javascript geleerd. 
+  - Dat door een kleine iets / error heel veel niet kan werken en dat misschien het ene html met dezelfde html/ javascript wel kan werken en de andere html daarmee vervolgens niet.
+  - Dat je niet moet opgeven
+  - Surface plane dingen toevoegen ging soms ineens heel soepel t.o.v de pagina's maken.
+  - Hoe je een darkmode maakt.
+  - Hoe je optel animatie maakt.
 
   <img src="readme-images/dummy-plaatje.jpg" width="375px" alt="top">
 
 
   ### Dit was lastig/Is niet gelukt:
   Korte omschrijving met plaatjes
-  - Hamburger menu werkend maken met klikken
   - De bewegende image
-  - De footer perfect namaken
-  - Surface plane
+  - Het menu perfect namaken
+  - Het zigzagpatroontje
   <img src="readme-images/dummy-plaatje.jpg" width="375px" alt="bummer">
 </details>
 
@@ -271,6 +289,6 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
 
   1. bron 1: https://codepen.io/shooft/live/MWZYoqa
   2. bron 2: https://chat.openai.com
-  3. ...
+  
 
 </details>
