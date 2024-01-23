@@ -292,6 +292,7 @@ header nav:nth-child(2) div .dark-mode-toggle {
 header nav:nth-child(2) div .font-size-kiezen {
 	margin: 0 2em 0 0;
 	border: none;
+	padding: 0;
 }
 
 header nav:nth-child(2) label {
