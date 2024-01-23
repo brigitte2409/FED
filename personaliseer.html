@@ -27,17 +27,26 @@
 			<ul>
 				<div> 
 					<button> nl <img src="images/dopper/NL.svg" alt="Nederlandse vlag"> </button>
-
-                    <div class="dark-mode-toggle">
-                        <label for="darkModeToggle">Dark Modus</label>
-                        <input type="checkbox" class="darkModeToggle" id="darkModeToggle">
-                    </div>
-                    
 				
 					<button aria-hidden="true"> 
 						<img src="images/cross.svg" alt="Kruisje, voor sluiten hamburgermenu" > 
 					</button>
 				</div>
+                <div>
+                    <div class="dark-mode-toggle">
+                        <label for="darkModeToggle">Dark Modus</label>
+                        <input type="checkbox" class="darkModeToggle" id="darkModeToggle">
+                    </div>
+                    
+                    <div class="font-size-kiezen">
+                        <label for="fontSizeKiezen">Lettergrootte:</label>
+                        <select id="fontSizeKiezen">
+                            <option value="0.75em">Klein</option>
+                            <option value="1em"  selected>Normaal</option>
+                            <option value="1.2em">Groot</option>
+                        </select>
+                    </div>
+                </div>
 				<li> <a href="index.html">Home</a> </li>
 				<li> <a href="#">Over Ons</a> </li>
 				<li> <a href="personaliseer.html">Producten</a> </li>

@@ -183,6 +183,15 @@ function isValidEmail(email) {
     return /\S+@\S+\.\S+/.test(email);
 }
 
+
+const fontSizeKiezen = document.getElementById('fontSizeKiezen');
+
+fontSizeKiezen.addEventListener('change', function() {
+    const selectedFontSize = fontSizeKiezen.value;
+    document.documentElement.style.setProperty('--font-sizek', selectedFontSize);
+    document.documentElement.style.setProperty('--font-size', selectedFontSize);
+    document.documentElement.style.setProperty('--font-sizeg', parseFloat(selectedFontSize) * 1.75 + 'em');
+});
 });
     
 
